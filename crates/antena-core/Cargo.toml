@@ -1,0 +1,10 @@
+[package]
+name = "antena-core"
+description = "NEC-2-compatible wire antenna solver (method of moments) with a browser front end."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+keywords = ["antenna", "ham-radio", "nec2", "electromagnetics"]

@@ -1,0 +1,16 @@
+[package]
+name = "antena-cli"
+description = "Command-line tool for ANTENA"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "antena"
+path = "src/main.rs"
+
+[dependencies]
+antena-core = { workspace = true }
