@@ -2,13 +2,23 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Version: 0.1.0-alpha.1 · Last updated: 13.11.2026
+Version: 0.1.0-alpha.1 · Last updated: 2026-11-14
 
 🌐 https://antena.chiuta.ro
 
 ## Status
 
 Early skeleton (pre-alpha): the workspace builds and the tests pass in CI. Every planned feature is an open task in `docs/issues/`.
+
+## Planned scope
+
+- Parsing of the remaining NEC-2 cards (CM, CE, GE, EX, FR, RP, EN) and geometry validation.
+- Method of moments for thin wires: impedance matrix fill and a linear solver.
+- Half-wave dipole input impedance checked against published values.
+- Radiation pattern (RP card), gain in dBi, and a perfect ground by the image method.
+- NEC-2-style text report plus JSON, and a WebAssembly build with a canvas viewer for geometry and 2D patterns.
+
+None of this is implemented yet: each item is an open task in `docs/issues/`.
 
 ## Build and test
 

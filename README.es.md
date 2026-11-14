@@ -2,13 +2,23 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · **Español** · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Versión: 0.1.0-alpha.1 · Última actualización: 13.11.2026
+Versión: 0.1.0-alpha.1 · Última actualización: 2026-11-14
 
 🌐 https://antena.chiuta.ro
 
 ## Estado
 
 Esqueleto inicial (pre-alfa): el workspace compila y las pruebas pasan en CI. Cada función prevista es una tarea abierta en `docs/issues/`.
+
+## Alcance previsto
+
+- Lectura de las tarjetas NEC-2 restantes (CM, CE, GE, EX, FR, RP, EN) y validación de la geometría.
+- Método de los momentos para hilos delgados: llenado de la matriz de impedancias y resolutor lineal.
+- Impedancia de entrada del dipolo de media onda comprobada con valores publicados.
+- Diagrama de radiación (tarjeta RP), ganancia en dBi y suelo perfecto por el método de las imágenes.
+- Informe de texto al estilo NEC-2 más JSON, y compilación WebAssembly con visor canvas para la geometría y los diagramas 2D.
+
+Nada de esto está implementado todavía: cada punto es una tarea abierta en `docs/issues/`.
 
 ## Compilar y probar
 

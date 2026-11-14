@@ -2,13 +2,23 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-Version: 0.1.0-alpha.1 · Letzte Aktualisierung: 13.11.2026
+Version: 0.1.0-alpha.1 · Letzte Aktualisierung: 2026-11-14
 
 🌐 https://antena.chiuta.ro
 
 ## Status
 
 Frühes Grundgerüst (Pre-Alpha): Das Workspace baut, und die Tests laufen in der CI durch. Jede geplante Funktion ist eine offene Aufgabe in `docs/issues/`.
+
+## Geplanter Umfang
+
+- Einlesen der übrigen NEC-2-Karten (CM, CE, GE, EX, FR, RP, EN) und Geometrieprüfung.
+- Momentenmethode für dünne Drähte: Füllen der Impedanzmatrix und ein linearer Löser.
+- Eingangsimpedanz des Halbwellendipols, geprüft gegen veröffentlichte Werte.
+- Strahlungsdiagramm (RP-Karte), Gewinn in dBi und perfekter Boden nach der Spiegelungsmethode.
+- Textbericht im NEC-2-Stil plus JSON sowie ein WebAssembly-Build mit Canvas-Viewer für Geometrie und 2D-Diagramme.
+
+Nichts davon ist bisher umgesetzt: Jeder Punkt ist eine offene Aufgabe in `docs/issues/`.
 
 ## Bauen und testen
 
